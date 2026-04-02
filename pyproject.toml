@@ -3,13 +3,16 @@ requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "verilog-parser"
+name = "eda-verilog-parser"
 version = "0.1.0"
-description = "Pure-Python parser for Verilog cell-library files"
+description = "A pure-Python parser for Verilog cell library files used in EDA automation workflows"
 readme = "README.md"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
+authors = [
+  { name = "Rohan Chadhury", email = "rohaanshahid@gmail.com" }
+]
 requires-python = ">=3.7"
-keywords = ["EDA", "Verilog", "netlist", "VLSI", "semiconductor", "cell library", "pins"]
+keywords = ["eda", "verilog", "vlsi", "semiconductor", "cell library", "pins", "celldefine", "parser"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -25,6 +28,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = []
 
 [project.optional-dependencies]
 color = ["termcolor>=1.1"]
@@ -32,6 +36,9 @@ dev   = ["pytest>=7", "termcolor>=1.1"]
 
 [project.scripts]
 verilog-parser = "verilog_parser.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/rohaansch/verilog-parser"
 
 [tool.setuptools.packages.find]
 where = ["."]
