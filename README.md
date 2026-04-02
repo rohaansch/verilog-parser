@@ -3,9 +3,14 @@
 A pure-Python parser for **Verilog cell-library** (`.v`) files — used in EDA
 flows to describe the pins and port directions of standard cells.
 
-[![CI](https://github.com/rohaansch/verilog-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/rohaansch/verilog-parser/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://pypi.org/project/verilog-parser/)
+[![CI](https://github.com/rohaansch/verilog-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/rohaansch/eda-verilog-parser/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://pypi.org/project/eda-verilog-parser/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+## Related article
+
+[Building a Python Verilog Cell Library Parser for EDA Automation](https://medium.com/@rohanchadhury/building-a-python-verilog-cell-library-parser-for-eda-automation-9a6af3e8f17c)
+— A walkthrough of the design decisions and real-world use cases behind this library.
 
 ## Features
 
