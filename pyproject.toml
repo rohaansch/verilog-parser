@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eda-verilog-parser"
-version = "0.1.0"
+version = "0.1.1"
 description = "A pure-Python parser for Verilog cell library files used in EDA automation workflows"
 readme = "README.md"
 license = { file = "LICENSE" }
